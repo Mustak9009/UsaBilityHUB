@@ -36,3 +36,75 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+li{
+    list-style: none;
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.secondary-button{
+
+}
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 12px 24px;
+    color: white !important; 
+    box-shadow: 0 0 2px var(--secondary-text-cplour);
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+
+
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url(/All-Img/NavPattern.png);
+    background-size: 400px;
+    background-repeat: repeat-x;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+.main-nav{
+    justify-content: space-between;
+    border: 2px solid red;
+}
+.company-logo > img{
+    width: 200px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+
+.hover-link{
+    color: var(--primary-text-color);
+}
+
+.hover-link:hover{
+    color: var(--accent-color);
+    transition: 0.2s ease-in-out;
+}
