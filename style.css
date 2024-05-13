@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;500&family=Roboto:wght@400;700&display=swap');
 :root{
     --primary-text-color:#183b56;
-    --secondary-text-cplour:#577592;
+    --secondary-text-color:#577592;
     --accent-color:#2994ed;
     --accent-color-dark:#1d69a3;
     --padding-inline-section:20px;
@@ -39,6 +39,9 @@ a{
 li{
     list-style: none;
 }
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
 
 .small-bold-text{
     font-size: 1rem;
@@ -49,7 +52,15 @@ li{
     align-items: center;
 }
 .secondary-button{
-
+    border: 2px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 12px 24px;
+    color: var(--secondary-text-color) !important; 
+}
+.secondary-button:hover{
+    border-color: var(--accent-color) !important;
+    color: var(--accent-color) !important;
 }
 .primary-button{
     background-color: var(--accent-color);
@@ -57,14 +68,12 @@ li{
     font-weight: 700;
     padding: 12px 24px;
     color: white !important; 
-    box-shadow: 0 0 2px var(--secondary-text-cplour);
+    box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
 }
 .primary-button:hover{
-    background-color: var(--accent-color-dark);
+    background-color: var(--accent-color-dark) !important;
 }
-
-
 
 
 .top-banner{
@@ -85,8 +94,8 @@ li{
     text-align: center;
 }
 .main-nav{
+    margin-top: 20px;
     justify-content: space-between;
-    border: 2px solid red;
 }
 .company-logo > img{
     width: 200px;
@@ -108,3 +117,25 @@ li{
     color: var(--accent-color);
     transition: 0.2s ease-in-out;
 }
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+.header-left {
+    max-width: 40vw;
+}
+.header-right > img{
+    width: 600px;
+}
+.header-left > h1{
+    margin:15px 0px;
+}
+.header-left > p {
+    color: rgb(101, 99, 99);
+}
+.get-started-button{
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
