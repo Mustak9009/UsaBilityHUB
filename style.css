@@ -151,3 +151,31 @@ header{
 .logo{
     height: 46px;
 }
+
+.future-section{
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url('All-Img/claimAft.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feature-header{
+    text-align: center;
+}
+.feature-header h2{
+    margin-bottom: 20px;
+}
+.feture-are{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 40px;
+}
+.feture-card{
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    text-align: center;
+}
+.feture-card  > img{
+    height: 40px;
+}
