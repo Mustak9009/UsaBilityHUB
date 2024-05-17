@@ -158,7 +158,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
-.feature-header{
+.feature-header,.example-header{
     text-align: center;
 }
 .feature-header h2{
@@ -178,4 +178,121 @@ header{
 }
 .feture-card  > img{
     height: 40px;
+}
+
+
+
+
+
+.big-future-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-future-container{
+    gap: 30px;
+}
+.future-img > img{
+    width: 100%;
+}
+.future-desc{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.example-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+.example-header{
+    flex-direction: column;
+    gap: 20px;
+}
+.example-card{
+    position: relative;
+    width: 23%;
+    min-height: 300px;
+    background: black;
+    transition: 0.2s ease-in-out;
+}
+.card-text{
+    position: absolute;
+    inset: auto 20px 20px 20px;
+    color: white;
+}
+.example-are{
+    justify-content: space-between;
+    margin-block:30px;
+}
+.example-are a:nth-child(1){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url('/All-Img/Example-1.jpg');
+    background-size: cover;
+}
+.example-are a:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url('/All-Img/Example-2.jpg');
+    background-size: cover;
+}
+.example-are a:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url('/All-Img/Example-3.jpg');
+    background-size: cover;
+}
+.example-are a:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url('/All-Img/Example-4.jpg');
+    background-size: cover;
+}
+
+.example-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+
+
+
+.cta-section-container{
+    color: white;
+    flex-direction: column;
+    gap: 30px;
+}
+.cta-section{
+    background-color: #183b54;
+    padding: 120px var(--padding-inline-section) 80px;
+}
+.cta-section-container > p{
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+.footer-container{
+    justify-content: space-between;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer-logo{
+    height: 200px;
+}
+
+
+
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.sub-footer-container{
+    justify-content: space-between;
+}
+.sub-footer-left{
+    gap: 30px;
+}
+.sub-footer-right{
+    gap: 20px;
 }
