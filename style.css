@@ -164,6 +164,9 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
+.feature-header{
+    margin-bottom: 40px;
+}
 .feature-header,.example-header{
     text-align: center;
 }
@@ -263,6 +266,7 @@ header{
     color: white;
     flex-direction: column;
     gap: 30px;
+    text-align: center;
 }
 .cta-section{
     background-color: #183b54;
