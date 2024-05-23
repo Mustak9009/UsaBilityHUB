@@ -22,4 +22,46 @@
     .cta-section{
         padding-block: 80px;
     }
+    .header-right > img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+    .primary-button{
+        width: 100%;
+    }
+    .feture-card{
+        width: calc(50% - 20px);
+    }
+    .big-future-container{
+        flex-direction: column;
+    }
+    #big-future-second-item{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .link-column{
+        align-items: stretch;
+    }
+    .footer-logo{
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:479px){
+    
 }

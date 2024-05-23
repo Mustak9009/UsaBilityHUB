@@ -70,6 +70,7 @@ header{
     color: white !important; 
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
+    text-align: center;
 }
 .primary-button:hover{
     background-color: var(--accent-color-dark) !important;
@@ -128,7 +129,7 @@ header{
     max-width: 40vw;
 }
 .header-right > img{
-    width: 100%;
+    width: 30vw;
 }
 .header-left > h1{
     margin:15px 0px;
@@ -173,7 +174,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
-    gap: 40px;
+    gap: 20px;
 }
 .feture-card{
     flex-direction: column;
@@ -195,6 +196,9 @@ header{
 
 .big-future-container{
     gap: 30px;
+}
+#big-future-second-item{
+    flex-direction: row-reverse;
 }
 .future-img > img{
     width: 100%;
@@ -296,9 +300,12 @@ footer{
 }
 .sub-footer-container{
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .sub-footer-left{
     gap: 30px;
+    flex-wrap: wrap;
 }
 .sub-footer-right{
     gap: 20px;
