@@ -96,6 +96,7 @@ header{
     text-align: center;
 }
 .main-nav{
+    position: relative;
     margin-top: 20px;
     justify-content: space-between;
 }
@@ -313,6 +314,7 @@ footer{
 }
 .sub-footer-right{
     gap: 20px;
+  
 }
 
 

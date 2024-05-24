@@ -26,7 +26,7 @@
         <a href="#" class="company-logo">
           <img src="./All-Img/logo.png" alt="UsabilityHub" />
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="navbar-links-component">
           <ul class="flex">
             <li>
               <a href="#" class="hover-link">Products</a>
@@ -48,7 +48,7 @@
             </li>
           </ul>
         </div>
-        <a href="#" class="nav-toggle hover-link">
+        <a href="#" class="nav-toggle hover-link" id="nav-toggleButton">
           <i class="fa-solid fa-bars"></i>
         </a>
       </div>
@@ -253,5 +253,12 @@
       src="https://kit.fontawesome.com/8afd8bae40.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const naBarLinks = document.getElementById('navbar-links-component');
+      const toggleButton = document.getElementById('nav-toggleButton');
+      toggleButton.addEventListener('click',()=>{
+        naBarLinks.classList.toggle('active')
+      })
+    </script>
   </body>
 </html>
